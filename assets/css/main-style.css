@@ -1,0 +1,37 @@
+body{
+    background-image: url(../images/another\ image.jpg);
+    color:black;
+    text-align: center;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 7px;
+    
+}
+.heading{
+    display: block;
+    border: 2px solid black;
+    height: 20vh;
+    background-size: cover;
+}
+
+nav{
+    font-style: italic;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color:white;
+    width: 200px;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.about{
+    text-align: left;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+#pp{
+    width: 40vw;
+    margin: 0 auto;
+}
