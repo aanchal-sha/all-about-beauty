@@ -1,37 +1,76 @@
-body{
-    background-image: url(../images/another\ image.jpg);
-    color:black;
-    text-align: center;
-    font-size: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 7px;
-    
+*{
+    box-sizing: border-box;
 }
-.heading{
-    display: block;
-    border: 2px solid black;
-    height: 20vh;
-    background-size: cover;
+
+body{
+    background-image: url("../images/backgroundimage.jpg");
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-color: grey;
+    color:black;
+    font-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+#pgtitle{
+    text-align: center;
+    margin: 0;
+    text-decoration: underline;
+    text-transform: lowercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 nav{
-    font-style: italic;
-    display: inline-block;
-    box-sizing: border-box;
-    background-color:white;
-    width: 200px;
-    padding: 7px;
-    border: 1px solid black;
+    margin-left: 20vw;
+    margin-right: 20vw;
+
+    background-color:rgba(255, 255, 255, 0.397);
     border-radius: 5px;
+    padding: 0.5%;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.about{
+nav a{
+    display: inline-block;
+    background-color:rgba(255, 255, 255, 0.685);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 1%;
+    width: 150px;
+    color: black;
+    padding-left: 1em;
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.219);
+    border-radius: 10px;
+}
+
+.aboutheader{
+    display: block;
+    width: max-content;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.534);
+    border-radius: 10px;
+
     text-align: left;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    padding: 2%;
+}
+
+.abouttext{
+    padding: 2%;
+    background-color: rgba(255, 255, 255, 0.534);
+    border-radius: 10px;
+    text-align: left;
+    
 }
 
 #pp{
-    width: 40vw;
+    width: 40%;
     margin: 0 auto;
+    margin: 0;
+    border-radius: 10px;
 }
