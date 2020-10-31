@@ -1,5 +1,5 @@
 body{
-    background-color: aliceblue;
+    background-image: url(../images/another\ image.jpg);
     color:black;
     text-align: center;
     font-size: 100%;
@@ -11,8 +11,6 @@ body{
     display: block;
     border: 2px solid black;
     height: 20vh;
-    background-image: url(../images/backgroundimage.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
