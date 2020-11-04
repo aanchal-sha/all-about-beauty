@@ -9,11 +9,9 @@ body{
 }
 
 .heading{
-    display: block;
-    border: 2px solid black;
-    height: 100px;
-    background-size: cover;
-}
+  
+
+
 
 nav{
     font-style: italic;
