@@ -8,7 +8,7 @@ body{
 }
 .wrapper{
     display: block;
-    width: 100vw;
+    width: 90vw;
     border: 1px solid red;
     padding: 1%; 
     margin-bottom: 1%;
@@ -27,4 +27,7 @@ body{
 
 img{
     width: 70%;
+}
+.images{
+    background-image: url(../images/backgroundimage.jpg);
 }
