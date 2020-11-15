@@ -29,9 +29,9 @@ img{
     width: 70%;
 }
 .images{
-    background-image: url(../images/smoke.jpg);
-    background-repeat: no-repeat;
-    background-size: 800px;
+    background-image: url(../images/earth.jpg);
+    background-repeat: repeat;
+ 
  
 
 }
