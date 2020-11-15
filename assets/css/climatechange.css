@@ -31,5 +31,7 @@ img{
 .images{
     background-image: url(../images/smoke.jpg);
     background-repeat: no-repeat;
+    background-size: 800px;
+ 
 
 }
